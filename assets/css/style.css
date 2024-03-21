@@ -358,7 +358,7 @@ nav>ul>li>a:hover {
 }
 
 .gallery img:hover {
-    transition: ease-in-out 0.5s;
+    /* transition:  0.5s; */
     filter: none;
     cursor: pointer;
     transform: scale(1.1);
