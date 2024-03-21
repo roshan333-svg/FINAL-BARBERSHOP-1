@@ -1,0 +1,127 @@
+@media screen and (min-width: 200px) and (max-width: 800px){
+    
+    header nav>ul {
+        visibility: hidden;
+    }
+    .hero{
+        display: block;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/sonam.webp);
+        background-size: cover;
+        background-position: top;
+        width: 100%;
+    }
+    .hero-image {
+        display: none;
+    
+    }
+    .hero-text {
+        align-items: center;
+        padding: 100px 0 0 0;
+    }
+    
+    .hero-text h1 {
+        font-size: 2.7rem;
+        font-weight: 600;
+    }
+    .hero-text p {
+        font-size: 20px;
+    }
+    header {
+        max-width: 800px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--black);
+        position: sticky;
+        top: 0px;
+        z-index: 100;
+    }
+    nav {
+        max-width: 800px;
+        margin: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0;
+        z-index: 999;
+    }
+    .mobilemenu{
+        display: block;
+    }
+    .mobilemenu a {
+         text-decoration: none;
+        font-size: 3rem;
+        color: white; 
+        display: block;
+    }
+
+    .mobile {
+        background-color: rgba(0, 0, 0, 0.4);
+        padding: 2rem 3rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .mobile ul {
+        list-style: none;
+        text-align: center;
+
+    }
+
+    .mobile ul li {
+        line-height: 3;
+    }
+
+    .mobile ul a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+    .serivce-container {
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+    .serivce-container>div {
+        width: 80%;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .service-title {
+        margin-bottom: 30px;
+    }
+    .service-text {
+        display: none;
+    }
+    .service-btn a {
+        padding: 5px 14px;
+    }
+    .gallerygrid{
+        display: none;
+    }
+    .mobGalleryGrid{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: column;
+        max-width: 1200px;
+        margin: auto;
+        color: wheat;
+        padding: 3rem 0;
+    }
+    .mobGalleryGrid img{
+        object-fit: fill;
+        width: 100%; 
+        height: auto; 
+        display: block;
+    }
+}
